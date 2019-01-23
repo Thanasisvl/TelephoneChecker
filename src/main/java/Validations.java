@@ -1,6 +1,8 @@
 
 public class Validations {
 
+
+    //Checks if the number passed as a parameter is a valid Greek Number
     public boolean isTelephoneValid(String tel) {
 
         if (tel.length() != 10 && tel.length() != 14) {
